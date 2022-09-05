@@ -72,7 +72,7 @@ add_action( 'init', 'wpm_custom_post_type', 0 );
 
 /* 
     Génération de mon url de posts random
-    http://starwars.local/wp-json/kadence-child/v1/random-memes/<memes_id>
+    http://starwars.local/wp-json/kadence-child/v1/random-memes/
 */
 
 add_action('rest_api_init', function () {
