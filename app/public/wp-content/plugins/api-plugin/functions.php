@@ -113,14 +113,9 @@ function get_random_memes() {
 
 /* Visuel d'un meme  */
 function show_random_meme(){
-    /* On récupère le meme random */
-    $meme = get_random_memes();
     
-    $title = $meme['title'];
-    $thumbnail = $meme['thumbnail'];
+    $display = "<div id='showMeme'>";
 
-    $display = "<div>";
-    $display .= "<h1 class='titleMeme'>$title</h1> $thumbnail";
     $display .= "</div>";
 
     return $display;
